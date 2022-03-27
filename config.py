@@ -1,7 +1,4 @@
-import os
-API_ID = int(os.getenv("11341733"))
-API_HASH = os.getenv("a8d0e82a1d69196c018caeacc6ee389f") 
-BOT_TOKEN = os.getenv("5234085443:AAH3QO_7ynvsZNDinpiyE-UVOpfuISmXJyA")
-DATABASE_URL = os.getenv("DATABASE_URL")
-OWNER_ID = list({int(x) for x in os.environ.get("5273435668", "").split()})
-
+class Config:
+    API_ID = "11341733"  # 🤖 Same As APP_ID. Get It From My.telegram.org.
+    API_HASH = "a8d0e82a1d69196c018caeacc6ee389f" # 🤖 Get It From My.telegram.org.
+    BOT_TOKEN = "5234085443:AAH3QO_7ynvsZNDinpiyE-UVOpfuISmXJyA" # 🤖 Get It From @BotFather (Telegram) By Sending /newbot Command.
